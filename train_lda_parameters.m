@@ -1,12 +1,12 @@
 %--------------------------------------------------------------------------------------
 %    parameters for linear discriminant analysis projection/dimesionality reduction
-%    DO NOT EDIT: indexing corresponds to lda parameters above
+%    DO NOT EDIT: indexing corresponds to trained lda parameters
 %
 % Author: Sumit A. Raurale
 %         ECIT, Queen's University Belfast, UK
 %--------------------------------------------------------------------------------------
 
-% ================== TRAINED NEURAL NETWORK CONSTANTS ==================
+% ========================== TRAINED LDA CONSTANTS ==========================
 
 % trained linear discriminant analysis parameters:
 eigvector = [0.00321677304199773,-0.000281519496059716,0.00695677145661008,-0.00133375890846219,0.00155873955947383,-0.00370213493813936,-0.00216890351345255,0.00382499284679123;...
