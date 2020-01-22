@@ -59,12 +59,10 @@ F_skew = m3 ./ s2.^(1.5);
 AR_coef = autoreg(emg_segment,ar_no);
 
 %% Final Feature Vector
-
 feature_vec = [AR_coef F_immg F_logrms F_kurt F_skew F_rms F_var F_MAV];
 
 
 function [AR_coef] = autoreg(ar_in,coef)  
-
 %#codegen
 
 narginchk(2,Inf)
