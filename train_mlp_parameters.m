@@ -1,7 +1,7 @@
 
 %---------------------------------------------------------------------
 %    parameters for Multi-layer Perceptron classification
-%    DO NOT EDIT: indexing corresponds to lda parameters above
+%    DO NOT EDIT: indexing corresponds to trained mlp parameters
 %
 % Author: Sumit A. Raurale
 %         ECIT, Queen's University Belfast, UK
