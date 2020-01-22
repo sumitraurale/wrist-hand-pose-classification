@@ -56,8 +56,7 @@ m3 = nanmean(x0.^3);
 F_skew = m3 ./ s2.^(1.5);
 
 % Compute AR Feature
-ar_in = emg_segment;
-AR_coef = autoreg(ar_in,ar_no);
+AR_coef = autoreg(emg_segment,ar_no);
 
 %% Final Feature Vector
 
