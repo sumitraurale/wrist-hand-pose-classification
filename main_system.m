@@ -7,9 +7,9 @@
 % 
 % Example:
 %
-%     segment_dim=256;
-%     channel_no=8;
-%     emg_data = rand(segment_dim,channel_no);
+%       segment_dim=256;
+%       channel_no=8;
+%       emg_data = rand(segment_dim,channel_no);
 %
 %
 % Author: Sumit Raurale, Ph.D.
