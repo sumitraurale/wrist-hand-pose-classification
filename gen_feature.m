@@ -58,7 +58,7 @@ F_skew = m3 ./ s2.^(1.5);
 % Compute AR Feature
 AR_coef = autoreg(emg_segment,ar_no,n);
 
-%% Final Feature Vector
+% Final Feature Vector %
 feature_vec = [AR_coef F_immg F_logrms F_kurt F_skew F_rms F_var F_MAV];
 
 
