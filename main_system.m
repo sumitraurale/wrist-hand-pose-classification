@@ -22,8 +22,8 @@ close all; clear all;
 % load system parameters
 system_parameters;
 
-% Sample emg segment
-emg_data = rand(segment_dim,channel_no);    
+% Sample EMG segment (provide input as 'emg_data' or uncomment the below line)
+%emg_data = rand(segment_dim,channel_no);    
 
 %---------------------------------------------------------------------
 % 1. time-domain feature extraction
