@@ -56,13 +56,13 @@ m3 = nanmean(x0.^3);
 F_skew = m3 ./ s2.^(1.5);
 
 % Compute AR Feature
-AR_coef = autoreg(emg_segment,ar_no);
+AR_coef = autoreg(emg_segment,ar_no,n);
 
 %% Final Feature Vector
 feature_vec = [AR_coef F_immg F_logrms F_kurt F_skew F_rms F_var F_MAV];
 
 
-function [AR_coef] = autoreg(ar_in,coef)  
+function [AR_coef] = autoreg(ar_in,coef,seg_length)  
 %#codegen
 
 narginchk(2,Inf)
@@ -84,7 +84,7 @@ end
 yor = cell(1);
 yor{1,1} = ar_in;
 Ne = numel(yor);
-Ncaps = 256;
+Ncaps = seg_length;
 
 options.EstCovar = pt;
 
