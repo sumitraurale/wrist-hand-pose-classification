@@ -1,9 +1,9 @@
 %-------------------------------------------------------------------------------
 % feature parameters
 %
-% Author: Sumit A. Raurale
-%         ECIT, Queen's University Belfast, UK
-%
+% Author: Sumit Raurale, Ph.D.
+%         email: sumit.raurale@gmail.com
+%         ECIT, Queen's University Belfast, United Kingdom
 %-------------------------------------------------------------------------------
 
 % specify dimension of EMG segment and overlap 
