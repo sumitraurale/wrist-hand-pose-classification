@@ -6,7 +6,6 @@
 %       EMG signals (channels 1-8) in clockwise orientation from Myo Armband.  
 % 
 % Example:
-%
 %       segment_dim=256;
 %       channel_no=8;
 %       emg_data = rand(segment_dim,channel_no);
