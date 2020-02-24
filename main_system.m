@@ -47,5 +47,6 @@ class_no = vec2ind(class_out);
 % Display Identified pose name  
 movement = Class_label(class_no);
 
+% Print the Identified movement
 fprintf('The Identified pose is "%s". \n',movement);
 
