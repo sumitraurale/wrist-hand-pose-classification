@@ -69,7 +69,8 @@ Test Computer Setup:
 
 References:
 1. SA Raurale, J McAllister, JM del Rincon, “Real-Time Embedded EMG Signal Analysis for 
-Wrist-Hand Pose Identification”, IEEE Transactions on Signal Processing. (Under Review) 
+Wrist-Hand Pose Identification”, IEEE Transactions on Signal Processing. IEEE, 2020,
+DOI: 10.1109/TSP.2020.2985299
 2. S Raurale, J McAllister, JM del Rincon, “EMG Acquisition and Hand Pose Classification 
 for Bionic Hands from Randomly-placed Sensors”, in 2018 IEEE International Conference on 
 Acoustics, Speech and Signal Processing (ICASSP), pp. 1105-1109, IEEE, 2015. 
